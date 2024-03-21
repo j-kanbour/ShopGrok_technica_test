@@ -1,0 +1,15 @@
+setup.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+web_crawlers/__init__.py
+web_crawlers/items.py
+web_crawlers/middlewares.py
+web_crawlers/pipelines.py
+web_crawlers/settings.py
+web_crawlers/spiders/__init__.py
+web_crawlers/spiders/aldi.py
+web_crawlers/spiders/surfboardempire.py
+web_crawlers/spiders/tackleworld.py
