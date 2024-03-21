@@ -4,12 +4,12 @@ Tets 1
 
 1) environment setup
 
-    $virtualenv venv
-    $./venv/Scripts/activate
+    virtualenv venv
+    ./venv/Scripts/activate
     
-    $pip install scrapy==2.4 shub scrapy-crawlera google-cloud-storage scrapy-sessions
+    pip install scrapy==2.4 shub scrapy-crawlera google-cloud-storage scrapy-sessions
 
-    $scrapy startproject web_crawlers
+    scrapy startproject web_crawlers
 
 2) See web_crawlers\web_crawlers\spiders\tackleworld.py
 
