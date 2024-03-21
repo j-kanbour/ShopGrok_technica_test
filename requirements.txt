@@ -1,0 +1,5 @@
+scrapy==2.4
+shub
+scrapy-crawlera
+google-cloud-storage
+scrapy-sessions
