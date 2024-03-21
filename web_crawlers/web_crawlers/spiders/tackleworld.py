@@ -8,13 +8,10 @@ class tackleWorldSpider(scrapy.Spider):
 
     def parse(self, response):
 
-        #traverse all sub categories
+        #search through all sub cateories
         for menu in response.xpath("//a[@class='navPage-subMenu-action navPages-action has-subMenu']/@href"):
 
-            try:
-                yield response.follow(menu, self.parse_item)
-            except:
-                continue
+            yield response.follow(menu, self.parse_item)
         
     def parse_item(self, response): 
 
